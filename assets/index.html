@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Css/theme.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="tlogin">
+            <div><h1> Tela de Cadastro </h1></div>
+            <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    <main> 
+        <div class="container">
+            <div class="login">
+                <div class="logo_login">
+                    <div class="img_login">
+                        <a href=""> <img src="imgs/prancheta.png" alt="Icone_prancheta"> </a>
+                    </div>
+                </div>
+                <div class="formulario">
+                    <fieldset class="dados_pessoais">
+                        <div class="form_login">
+                            <form action="/action_page.php">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="fname" name="fname" placeholder="Exemplo"><br/><br/>
+                                <label for="sobrenome">Sobrenome:</label>
+                                <input type="text" id="lname" name="lname" placeholder="Exemplo"><br/><br/>
+                                <label for="aniversario">Aniversário:</label>
+                                <input type="date" id="niver" name="niver" ><br/><br/>
+                            </form> 
+                    </fieldset>
+                    <div class="line_cadastro"> </div>
+                    <fieldset class="dados_login">   
+                            <form action="/action_page.php">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="nome@email.com"><br/><br/>
+                                <label for="senha">Senha:</label>
+                                <input type="password" id="senha" name="senha" placeholder="12345678"><br/><br/>
+                                <label for="c_senha">Confirme a senha: </label>
+                                <input type="password" id="c_senha" name="c_senha" placeholder="12345678"><br/><br/>
+                            </form>
+                        </div>
+                    </fieldset>
+                    <div id="botao">
+                        <input type="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

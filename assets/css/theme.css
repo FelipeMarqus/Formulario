@@ -1,0 +1,104 @@
+body{
+    background-image: linear-gradient(-195deg,#141490,#141490, #6960F1,#34AF9C,#141490,#141490);
+    height: 100%;
+    background-attachment: fixed;
+    margin:0;
+    padding:0; 
+    font-family: Arial;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+.tlogin {
+    flex-direction: column;
+}
+.login {
+    width: 990px;
+    height: 790px;
+    margin-top: 70px;
+    background-image: linear-gradient(-195deg,#6960F1,#34AF9C,#6960F1,#34AF9C);
+    border-radius: 25px;
+}
+header h1 {
+    margin-bottom: -50px;
+    margin-left: 25px;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(116, 114, 114);
+}
+.line {
+    width: 260px;
+    height: 3px;
+    background-image: linear-gradient(to left,#6960F1,#34AF9C,#6960F1,#34AF9C);
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    border-radius: 5px;
+}
+.img_login {
+    display: flex;
+    justify-content: center;
+}
+.logo_login img {
+    width: 80px;
+    height: 80px;
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+}
+.line_cadastro {
+    width: 10px;
+    margin-top: 25px;
+    height: 500px;
+    background-image: linear-gradient(to bottom,#141490,#6960F1,#141490);
+    border-radius: 5px;
+}
+.formulario {
+    display: flex;
+    justify-content: space-between;
+}
+fieldset {
+    border: 0;
+}
+.dados_login,.dados_pessoais {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 2px 1px #141490;
+    flex: 1;
+    text-align: center;
+}
+.dados_login input,.dados_pessoais input {
+    font-size: 25px;
+    text-align: center;
+    border-radius: 25px;
+    flex: 1;
+    box-shadow: 0px 5px 2px #141490 ;
+    border: solid 2px#141490;
+}
+#botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;   
+}
+#botao input {
+    font-size: 60px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    color: white;
+    text-shadow: 1px 2px 1px #141490;
+    background-image: linear-gradient(to bottom,#141490,#6960F1,#141490)
+}
